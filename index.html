@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postcard web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <div id="home">
+            <div><a href="#">Home</a></div>
+            <div>
+              <div class="dropdown">Postcode Lists</div>
+              <div class="dropdown-content">
+                <p>By County</p>
+                <p>By introduction date</p>
+              </div>
+            </div>
+            <div>Postcode Maps</div>
+            <div>Nearest postcode</div>
+            <div>Postcode Lottery</div>
+          </div>
+          <div id="help">
+            <div>Help and Information</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="check">
+        <div class="check-postcode">
+            <h2>Check My Postcode</h2>
+            <div id="search">
+                <input type="text" placeholder="Postcode or place name"  />
+                <button>Search</button>
+            </div> 
+        </div>
+        <div class="geolocation">
+            <p>Or use your geolocation service to<a href="#">find postcode near you</a></p>
+        </div> 
+      </section>
+      <section class="postcodes">
+        <h2>Popular Postcode</h2>
+        <p>Popular postcode around the UK</p>
+        <div>
+          <span>SA99 1DU</span>
+          <span>W1A 1AA</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>SA99 1DU</span>
+          <span>view all</span>
+        </div>
+      </section>
+      <section id="information">
+        <div id="info">
+          <h2>Get Important Information</h2>
+          <p>
+            Use Check My Postcode to find out all the key information for your
+            local postcode.
+          </p>
+        </div>
+        
+        <div id="important-info">
+            <div class="mobile-map">
+                <img src="./images/World map.png" alt="Mobile world map" />
+            </div>
+            <div class="bullets">
+                <img src="./images/Check circleBullet.png" alt="" /><p>Find out typicalhouse prices, council tax bands and buisness ratebale values.</p>
+                <img src="./images/Check circleBullet.png" alt="" /><p>See who represents you in parlaiment and your local councils, and discover how Ofsted has rated local schools.</p>
+                <img src="./images/Check circleBullet.png" alt="" /><p>Check whether superfast broadband is available, and see how popular it is.</p>
+                <img src="./images/Check circleBullet.png" alt="" /><p>See where your postcode is on a map.</p>
+                <img src="./images/Check circleBullet.png" alt="" /><p>Find the nearest postcodes to where you are right now.</p>
+                <img src="./images/Check circleBullet.png" alt="" /><p>Read what other people have said about your postcode, and leave your own comments for others to read.</p> 
+            </div>
+        </div>
+        
+      </section>
+      <section id="bookings">
+        <div id="bar">
+          <div id="book">
+            <img src="./images/Bookings.png" alt="bookings.com" />
+          </div>
+          <div id="guest">
+            <input
+              type="text"
+              placeholder="e.g city, region, district..."
+              id="region"
+            />
+            <input type="date" name="date" id="date" />
+            <button id="proceed">Search</button>
+            <span>Guests</span>
+          </div>
+        </div>
+        <div id="places">
+          <div class="mid">
+            <img
+              src="./images/Trondheim.webp"
+              alt="Trondheim-view"
+              class="city"
+            />
+            <div class="double">Double from</div>
+            <div class="front">
+              Trondheim
+              <img
+                src="./images/Trondheim Flag.png"
+                alt="Trondheim flag"
+              /><br />
+              <span class="property">45 properties</span>
+            </div>
+          </div>
+          <div class="mid">
+            <img src="./images/Sixt.webp" alt="Sixt-view" class="city" />
+            <div class="double">Double from</div>
+            <div class="front">
+              Sixt
+              <img src="./images/Sixt flag.png" alt="Trondheim flag" /><br />
+              <span class="property">21 properties</span>
+            </div>
+          </div>
+          <div class="mid">
+            <img
+              src="./images/Bransgore.webp"
+              alt="Bransgore-view"
+              class="city"
+            />
+            <div class="double">Double from</div>
+            <div class="front">
+              Bransgore
+              <img
+                src="./images/Bransgore flag.png"
+                alt="Trondheim flag"
+              /><br />
+              <span class="property">4 properties</span>
+            </div>
+          </div>
+          <div id="tab">
+            <div id="flag">
+              <img
+                src="./images/Trondheim Flag.png"
+                alt="Trondheim Flag"
+                class="flags"
+                id=""
+              />
+              <span class="district">Trondheim</span>
+              <span class="from">from</span><br />
+              <img src="./images/Sixt flag.png" alt="Sixt flag" class="flags" />
+              <span class="district">Sixt</span> <span class="from">from</span
+              ><br />
+              <img
+                src="./images/Bransgore flag.png"
+                alt="Bransgore flag"
+                class="flags"
+              />
+              <span class="district">Bransgore</span>
+              <span class="from">from</span> <br />
+              <img
+                src="./images/Cala Anguila.png"
+                alt="Cala Anguila"
+                class="flags"
+              />
+              <span class="district">Cala Anguila</span>
+              <span class="from">from</span> <br />
+              <img
+                src="./images/Chiusanico.png"
+                alt="Chiusanico"
+                class="flags"
+              />
+              <span class="district">Chiusanico</span>
+              <span class="from">from</span> <br />
+              <img
+                src="./images/Kavousion.png"
+                alt="Kavousion flag"
+                class="flags"
+              />
+              <span class="district">Kavousion</span>
+              <span class="from">from</span> <br />
+              <img
+                src="./images/Pieve Di Ledro.png"
+                alt="Pieve Di Ledro flag"
+                class="flags"
+              />
+              <span class="district">Pieve Di Ledro</span>
+              <span class="from">from</span> <br />
+              <img
+                src="./images/Vierville-Sur-Mar.png"
+                alt="Vierville-Sur-Mar flag"
+                class="co-flag"
+              />
+              <span class="districts">Vierville-Sur-Mar</span>
+              <span class="from">from</span>
+            </div>
+            <div>
+              <button id="discover">
+                <img
+                  src="./images/search (3).svg"
+                  alt="search-icon"
+                  class="discover"
+                />
+                Discover
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="related">
+        <h2>Related Topics</h2>
+        <div id="extra">
+          <p class="more">Cheapest Postcode in UK <img src="./images/Arrow head.png" alt="arrow head"></p>
+          <p class="more">Fitzrovia <img src="./images/Arrow head.png" alt="arrow head"></p>
+          <p class="more">Postcode for United Kingdom <img src="./images/Arrow head.png" alt="arrow head"></p>
+          <p class="more">Uk addresses and Postcode <img src="./images/Arrow head.png" alt="arrow head"></p>
+          <p class="more">Mapsdata <img src="./images/Arrow head.png" alt="arrow head"></p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>Check My Postcode</p>
+        <p>CheckMyPostcode.UK is a <a href="#">Good stuff</a> Website.</p>
+      </div>
+      <div>
+        <p>Search</p>
+        <p>Postcode by country</p>
+        <p>Postcode by introduction date</p>
+        <p>Postcode Near me</p>
+      </div>
+      <div>
+        <p>Post Map by User Type</p>
+        <p>Postcode Map Use Category</p>
+        <p>Postcode Map by Council Tax Band</p>
+        <p>Postcode Lottery</p>
+      </div>
+      <div>
+        <p>About this Website</p>
+        <p>Disclaimer and Limitation</p>
+        <p>Privacy Policy</p>
+      </div>
+    </footer>
+  </body>
+</html>
